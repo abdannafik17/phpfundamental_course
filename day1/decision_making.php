@@ -17,6 +17,25 @@
 			echo 'Uang anda belum mencukupi untuk beli fortuner atau avanza';
 		}
 
+		echo '<br /> <br /> Menggunakan Switch Case : <br />';
+
+		$trafficLight = 'abu2';
+		echo 'input = '.$trafficLight.' <br/>';
+		switch ($trafficLight) {
+			case 'merah':
+				echo 'Warna Merah Kendaraan Harus Berhenti';
+				break;
+			case 'kuning':
+				echo 'Warna kuning Kendaraan Jalan Pelan-Pelan';	
+				break;
+			case 'hijau':
+				echo 'Warna hijau Kendaraan Jalan';	
+				break;
+			default:
+				echo 'Input Tidak Sesuai';	
+				break;
+		}
+
 
 	?>
 </body>
