@@ -29,7 +29,7 @@
             </tr>
             <tr> 
                 <td>Alamat</td>
-                <td><input type="text" name="alamat"></td>
+                <td><textarea name="alamat" style="font-family:Times New Roman"></textarea></td>
             </tr>
             <tr> 
                 <td></td>
