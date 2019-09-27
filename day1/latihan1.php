@@ -22,6 +22,8 @@
 		echo "<br /><br /> ini contoh pakai petik satu : <br/>";
 		echo $nama.'-'.$hero.'-'.$umur.'-'.$tinggi.'-'.$pendapatan;
 
+		
+
    	?>
 
 </body>
