@@ -49,7 +49,7 @@ while($peg = mysqli_fetch_array($result))
         <table border="0">
             <tr> 
                 <td>Nama</td>
-                <td><input type="text" name="nama" value=<?=$nama;?> size="35"></td>
+                <td><input type="text" name="nama" value="<?php echo $nama;?>"></td>
             </tr>
             <tr>
                 <td>Jenis kelamin</td>
@@ -63,11 +63,13 @@ while($peg = mysqli_fetch_array($result))
             </tr>
             <tr> 
                 <td>No HP</td>
-                <td><input type="text" name="no_hp" value=<?php echo $no_hp;?>></td>
+                <td><input type="text" name="no_hp" value="<?php echo $no_hp;?>"></td>
             </tr>
             <tr> 
                 <td>Alamat</td>
-                <td><input type="text" name="alamat" value=<?php echo $alamat;?>></td>
+                <td>
+                    <textarea name="alamat" style="font-family:Times New Roman"><?php echo $alamat;?></textarea>
+                </td>
             </tr>
             <tr>
                 <td><input type="hidden" name="id" value=<?php echo $_GET['id'];?>></td>
