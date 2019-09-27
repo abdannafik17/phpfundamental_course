@@ -35,8 +35,8 @@ while($user_data = mysqli_fetch_array($result))
 ?>
 <html>
 <head>  
-    <title>Edit User Data</title>
-</head>
+    <title>Edit User Data</title
+<>/head>
 
 <body>
     <a href="index.php">Home</a>
